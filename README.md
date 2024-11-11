@@ -1,4 +1,4 @@
-Elitely Telegram Bot (Python)
+##Elitely Telegram Bot (Python)
 This Telegram bot for Elitely uses python, flask, and an ngrok server. The 
 ngrok server can be replaced using a backend server.
 
@@ -6,7 +6,7 @@ The current bot used in the config.py file is called Testbot.
 
 You can find this bot using: t.me/stuntaz_bot
 
-Important Notes:
+###Important Notes:
 Please note that if you are using your OWN backend server for testing 
 instead of ngrok, ensure you are port forwarding the URL for your backend 
 server to the port opened in the app.py file. The current port is set to 
@@ -41,7 +41,7 @@ using the TestBot created for this demo:
 Go to t.me/stuntaz_bot and send the /start command. Once the bot is 
 initialized, use the URL format mentioned above to fetch the chat_id.
 
-Installation
+###Installation
 Download ngrok into the project root directory: https://ngrok.com/download
 
 Navigate to the root directory in terminal, run:
